@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+#Reference: https://github.com/ray-project/langchain-ray/blob/5e7309ecb209e4487a86047a1119938a1abae771/open_source_LLM_search_engine/embeddings.py#L7
+
 from typing import List
 
 from langchain.embeddings.base import Embeddings
