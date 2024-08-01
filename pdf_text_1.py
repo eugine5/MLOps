@@ -34,9 +34,9 @@ class Processor:
         result = self.read_pdf(file_path)
         return result
 
-# Example usage:
-input_directory = "/home/vas/Documents/llava3/yjc_ragscale/ragscale/src/data"
-output_directory = "/home/vas/Documents/llava3/yjc_ragscale/ragscale/src/processed"
+# input & output directory paths:
+input_directory = "/home/src/data"
+output_directory = "/home/src/data/processed"
 os.makedirs(output_directory, exist_ok=True)
 
 # List PDF files
