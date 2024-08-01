@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 
-
-#이게 더 퍼포먼스가 좋음. 
-#더 자세하게 액터를 들어가가지고 만드는게 좋은것이 아님 
-#일단 이걸로 하곡 move on to next.
 import os
 import ray
 import fitz  # PyMuPDF
