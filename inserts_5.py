@@ -100,7 +100,7 @@ db_params = {
 }
 
 # Directory containing CSV files
-csv_directory = '/home/vas/Documents/llava3/yjc_ragscale/ragscale/src/processed'
+csv_directory = '/home/src/data/processed'
 csv_pattern = 'embedded_texts_*.csv'
 
 # Execute the insertion
