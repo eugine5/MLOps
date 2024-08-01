@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-#after combining the clean and otehr stuff /n
+
 import pandas as pd
 import re
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-input_file_path = '/home/vas/Documents/llava3/yjc_ragscale/ragscale/src/processed/processed_texts.csv'
-output_file_path = '/home/vas/Documents/llava3/yjc_ragscale/ragscale/src/processed/processed_texts2.csv'
+input_file_path = '/home/src/data/processed/processed_texts.csv'
+output_file_path = '/home/src/data/processed/processed_texts2.csv'
 
 # Initialize text splitter
 text_splitter = RecursiveCharacterTextSplitter(
