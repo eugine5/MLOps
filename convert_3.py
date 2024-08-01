@@ -18,8 +18,8 @@ NUM_ACTORS = 10  # Number of actors for parallel processing
 BATCH_SIZE = 1000  # Number of records to process before saving intermediate results
 
 # Define the paths
-input_file_path = '/home/vas/Documents/llava3/yjc_ragscale/ragscale/src/processed/processed_texts2.csv'
-output_directory = '/home/vas/Documents/llava3/yjc_ragscale/ragscale/src/processed'
+input_file_path = '/home/src/data/processed/processed_texts2.csv'
+output_directory = '/home/src/data/processed'
 os.makedirs(output_directory, exist_ok=True)
 
 # Load the input CSV
